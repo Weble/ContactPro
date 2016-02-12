@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form type="browse" show_header="1" show_filters="1" show_pagination="1" norows_placeholder="COM_CONTACTPRO_COMMON_NORECORDS">
+  <headerset>
+    <header name="contactpro_request_id" type="RowSelect" label="COM_CONTACTPRO_REQUESTS_CONTACTPRO_REQUEST_ID_LBL" sortable="true" tdwidth="20"/>
+    <header name="subject" type="Searchable" label="COM_CONTACTPRO_REQUESTS_SUBJECT_LBL" sortable="true"/>
+    <header name="email" type="Searchable" label="COM_CONTACTPRO_REQUESTS_EMAIL_LBL" sortable="true"/>
+    <header name="phone" type="Searchable" label="COM_CONTACTPRO_REQUESTS_PHONE_LBL" sortable="true"/>
+    <header name="message" type="Searchable" label="COM_CONTACTPRO_REQUESTS_MESSAGE_LBL" sortable="true"/>
+    <header name="firstname" type="Searchable" label="COM_CONTACTPRO_REQUESTS_FIRSTNAME_LBL" sortable="true"/>
+    <header name="lastname" type="Searchable" label="COM_CONTACTPRO_REQUESTS_LASTNAME_LBL" sortable="true"/>
+  </headerset>
+  <fieldset name="items">
+    <field name="contactpro_request_id" type="SelectRow" label="COM_CONTACTPRO_REQUESTS_CONTACTPRO_REQUEST_ID_LBL"/>
+    <field name="subject" type="Text" label="COM_CONTACTPRO_REQUESTS_SUBJECT_LBL"/>
+    <field name="email" type="Email" label="COM_CONTACTPRO_REQUESTS_EMAIL_LBL"/>
+    <field name="phone" type="Tel" label="COM_CONTACTPRO_REQUESTS_PHONE_LBL"/>
+    <field name="message" type="Text" label="COM_CONTACTPRO_REQUESTS_MESSAGE_LBL"/>
+    <field name="firstname" type="Text" label="COM_CONTACTPRO_REQUESTS_FIRSTNAME_LBL"/>
+    <field name="lastname" type="Text" label="COM_CONTACTPRO_REQUESTS_LASTNAME_LBL"/>
+  </fieldset>
+</form>
