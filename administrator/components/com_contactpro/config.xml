@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset
+            name="basic"
+            label="BASIC"
+            description="COM_CONTACTPRO_BASIC">
+
+
+    </fieldset>
+</config>
