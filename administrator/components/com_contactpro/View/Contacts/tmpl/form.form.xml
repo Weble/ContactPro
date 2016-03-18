@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form validate="true">
+  <fieldset name="scaffolding" label="COM_CONTACTPRO_CONTACTS_GROUP_BASIC">
+    <field name="email" type="Email" label="COM_CONTACTPRO_CONTACTS_EMAIL_LBL" description="COM_CONTACTPRO_CONTACTS_EMAIL_DESC"/>
+    <field name="firstname" type="Text" label="COM_CONTACTPRO_CONTACTS_FIRSTNAME_LBL" description="COM_CONTACTPRO_CONTACTS_FIRSTNAME_DESC"/>
+    <field name="surname" type="Text" label="COM_CONTACTPRO_CONTACTS_SURNAME_LBL" description="COM_CONTACTPRO_CONTACTS_SURNAME_DESC"/>
+    <field name="phone" type="Tel" label="COM_CONTACTPRO_CONTACTS_PHONE_LBL" description="COM_CONTACTPRO_CONTACTS_PHONE_DESC"/>
+  </fieldset>
+</form>

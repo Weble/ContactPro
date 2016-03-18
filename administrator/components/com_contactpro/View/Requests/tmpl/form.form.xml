@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form validate="true">
   <fieldset name="scaffolding" label="COM_CONTACTPRO_REQUESTS_GROUP_BASIC">
+    <field name="contact_id" type="Model" label="COM_CONTACTPRO_REQUESTS_CONTACT_ID_LBL" description="COM_CONTACTPRO_REQUESTS_CONTACT_ID_DESC"
+           model="Contacts"
+           key_field="contactpro_contact_id"
+           value_field="email"
+    />
     <field name="subject" type="Text" label="COM_CONTACTPRO_REQUESTS_SUBJECT_LBL" description="COM_CONTACTPRO_REQUESTS_SUBJECT_DESC"/>
     <field name="email" type="Email" label="COM_CONTACTPRO_REQUESTS_EMAIL_LBL" description="COM_CONTACTPRO_REQUESTS_EMAIL_DESC"/>
     <field name="phone" type="Tel" label="COM_CONTACTPRO_REQUESTS_PHONE_LBL" description="COM_CONTACTPRO_REQUESTS_PHONE_DESC"/>
